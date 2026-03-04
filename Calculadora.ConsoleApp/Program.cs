@@ -4,11 +4,11 @@
 // Requisito 4: Nossa calculadora deve permitir a divisão de dois números
 // Requisito 5: Nossa calculadora deve permitir a execução de múltiplas operações
 
-bool deveContinuar = true; // atribuição
+bool deveContinuar = true;
 
-while (deveContinuar == true) // condição
+while (deveContinuar == true)
 {
-    // Console.Clear();
+    Console.Clear();
 
     Console.WriteLine("---------------------------------------");
     Console.WriteLine("Calculadora 2026");
