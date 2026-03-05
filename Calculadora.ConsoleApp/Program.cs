@@ -109,7 +109,7 @@ while (deveContinuar == true)
             {
                 Console.WriteLine("Não é possível fazer uma divisão por zero. Tente novamente.");
 
-                return;
+                continue;
             }
 
             resultado = primeiroNumero / segundoNumero;
