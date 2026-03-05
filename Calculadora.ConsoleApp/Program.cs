@@ -4,7 +4,6 @@
 // Requisito 4: Nossa calculadora deve permitir a divisão de dois números
 // Requisito 5: Nossa calculadora deve permitir a execução de múltiplas operações
 // Requisito 6: Nossa calculadora deve dar a possibilidade de produzir a tabuada de um número informado
-// Requisito 7: Nossa calculadora deve dar a possibilidade de visualizar o histórico de operações
 
 bool deveContinuar = true;
 
