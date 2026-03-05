@@ -8,7 +8,7 @@ bool deveContinuar = true;
 
 while (deveContinuar == true)
 {
-    Console.Clear();
+    // Console.Clear();
 
     Console.WriteLine("---------------------------------------");
     Console.WriteLine("Calculadora 2026");
@@ -44,6 +44,17 @@ while (deveContinuar == true)
     Console.WriteLine("O segundo número digitado foi: " + strSegundoNumero);
 
     Console.WriteLine();
+
+    bool primeiroNumeroVazio = string.IsNullOrEmpty(strPrimeiroNumero);
+    bool segundoNumeroVazio = string.IsNullOrEmpty(strSegundoNumero);
+
+    if (primeiroNumeroVazio == true || segundoNumeroVazio == true)
+    {
+        Console.WriteLine("Digite um número válido!");
+        Console.ReadLine();
+
+        continue;
+    }
 
     // int = número inteiro
     int primeiroNumero = Convert.ToInt32(strPrimeiroNumero);
