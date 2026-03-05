@@ -61,31 +61,36 @@ while (deveContinuar == true)
 
     decimal resultado;
 
-    if (operacaoSelecionada == "1")
+    switch (operacaoSelecionada) // operador do switch
     {
-        resultado = primeiroNumero + segundoNumero;
-    }
+        case "1":
+            resultado = primeiroNumero + segundoNumero;
+            break;
 
-    else if (operacaoSelecionada == "2")
-    {
-        resultado = primeiroNumero - segundoNumero;
-    }
+        case "2":
+            resultado = primeiroNumero - segundoNumero;
+            break;
 
-    else if (operacaoSelecionada == "3")
-    {
-        resultado = primeiroNumero * segundoNumero;
-    }
+        case "3":
+            resultado = primeiroNumero * segundoNumero;
+            break;
 
-    else
-    {
-        if (segundoNumero == 0)
-        {
-            Console.WriteLine("Não é possível fazer uma divisão por zero. Tente novamente.");
+        case "4":
+            if (segundoNumero == 0)
+            {
+                Console.WriteLine("Não é possível fazer uma divisão por zero. Tente novamente.");
 
-            return;
-        }
+                return;
+            }
 
-        resultado = primeiroNumero / segundoNumero;
+            resultado = primeiroNumero / segundoNumero;
+            break;
+
+        default:
+            Console.WriteLine("Selecione uma operação válida!");
+            Console.ReadLine();
+
+            continue;
     }
 
     Console.WriteLine("A operação dos dois números resulta em: " + resultado);
