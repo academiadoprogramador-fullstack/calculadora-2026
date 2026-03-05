@@ -8,7 +8,7 @@ bool deveContinuar = true;
 
 while (deveContinuar == true)
 {
-    // Console.Clear();
+    Console.Clear();
 
     Console.WriteLine("---------------------------------------");
     Console.WriteLine("Calculadora 2026");
@@ -56,11 +56,10 @@ while (deveContinuar == true)
         continue;
     }
 
-    // int = número inteiro
-    int primeiroNumero = Convert.ToInt32(strPrimeiroNumero);
-    int segundoNumero = Convert.ToInt32(strSegundoNumero);
+    decimal primeiroNumero = Convert.ToDecimal(strPrimeiroNumero);
+    decimal segundoNumero = Convert.ToDecimal(strSegundoNumero);
 
-    int resultado;
+    decimal resultado;
 
     if (operacaoSelecionada == "1")
     {
