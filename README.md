@@ -1,6 +1,6 @@
 # Calculadora 2026
 
-![](docs\calculadora.gif)
+![](./docs/calculadora.gif)
 
 ## Introdução
 
@@ -25,9 +25,9 @@ Uma calculadora de console simples mas poderosa que permita realizar as quatro o
 
 4. Em seguida compile e execute o projeto com o comando:
 
-    ```
-    dotnet run --project Calculadora.ConsoleApp
-    ```
+   ```
+   dotnet run --project Calculadora.ConsoleApp
+   ```
 
 ## Requisitos
 
