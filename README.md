@@ -1,6 +1,6 @@
 # Calculadora 2026
 
-![](./docs/calculadora.gif)
+![](./.docs/calculadora.gif)
 
 ## Introdução
 
