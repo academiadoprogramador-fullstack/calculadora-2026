@@ -1,6 +1,10 @@
-# Calculadora 2026
+# Calculadora
 
 ![](./.docs/calculadora.gif)
+
+## Projeto
+
+Desenvolvido durante o curso Fullstack da [Academia do Programador](https://www.academiadoprogramador.net) 2026
 
 ## Introdução
 
